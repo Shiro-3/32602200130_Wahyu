@@ -7,8 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->post('/', 'Home::index');
-$routes->get('/edit_menu.php', 'edit_menu::index');
-$routes->post('/edit_menu.php', 'edit_menu::index');
+$routes->get('/edit_menu', 'edit_menu::index');
+$routes->post('/edit_menu', 'edit_menu::index');
 $routes->get('/delete_menu.php', 'delete_menu::index');
 $routes->post('/delete_menu.php', 'delete_menu::index');
 $routes->get('/create_menu.php', 'create_menu::index');
